@@ -1,0 +1,19 @@
+.name{
+  color:aliceblue;
+  font-weight: 700;
+  margin-right: 10px;
+  
+}
+.flag{
+  width: 100px;
+  height: 60px;
+  margin-right: 20px;
+  
+}
+.main{
+display: flex;
+align-items: center;
+border:1px solid salmon;
+width: 450px;
+margin-bottom: 10px;
+}
