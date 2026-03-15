@@ -1,19 +1,45 @@
 .name{
   color:aliceblue;
   font-weight: 700;
-  margin-right: 10px;
+ 
   
 }
 .flag{
   width: 100px;
   height: 60px;
-  margin-right: 20px;
+
   
 }
 .main{
+
 display: flex;
+flex-direction: column;
+gap:5px;
 align-items: center;
-border:1px solid salmon;
-width: 450px;
-margin-bottom: 10px;
+border:5px solid salmon;
+width: 200px;
+padding: 15px 0 15px 0;
+border-radius: 15px;
+}
+.area{
+
+  margin:0 5px 0 5px;
+  color: hsla(86, 58%, 32%, 0.973);
+}
+.btn{
+  color: salmon;
+  background: transparent;
+  border: 1px solid salmon;
+  border-radius: 4px;
+  padding: 6px;
+}
+.btn-visited{
+
+  color: rgb(163, 231, 124);
+  border: 1px solid rgb(163, 231, 124);
+}
+
+/* Conditional Css */
+.country-visited{
+  border: 5px solid rgb(163, 231, 124);
 }

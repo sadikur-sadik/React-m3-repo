@@ -1,0 +1,16 @@
+.parentName{
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+h1{
+    text-align: center;
+}
+.ol-list{
+    position: absolute;
+}
+.container{
+    position: relative;
+}
